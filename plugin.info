@@ -1,0 +1,10 @@
+[Plugin]
+Name = Dad Jokes
+Version = 1.0
+License = MIT
+URL = https://github.com/austincasteel/dadjokes/
+Description = Have Naomi tell random Dad Jokes
+
+[Author]
+Name = Austin Casteel
+URL = https://github.com/austincasteel/
