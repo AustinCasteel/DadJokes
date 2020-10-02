@@ -42,7 +42,7 @@ class DadJokes(plugin.SpeechHandlerPlugin):
         #text = intent['input']
 
         url = "https://icanhazdadjoke.com/"
-        response = requests.get(url)
+        response = requests.get(url, headers={"Accept":"application/json"})
         jsondoc = str(response.content, 'utf-8')
         jokedata = json.loads(jsondoc)
         response = jokedata["joke"]
